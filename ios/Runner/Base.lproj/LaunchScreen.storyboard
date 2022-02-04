@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ydg-fD-yQy"/>
+                        <viewControllerLayoutGuide type="bottom" id="xbc-2k-c8Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="LaunchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="tWc-Dq-wcI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="YRO-k0-Ey4">
+                                <rect key="frame" x="423" y="15" width="168" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="BrandingImage" translatesAutoresizingMaskIntoConstraints="NO" id="Uyq-Kz-ftE">
+                                <rect key="frame" x="-14" y="321" width="254.00000000000017" height="253.99999999999997"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="0sP-We-CbK"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="400" id="7Gb-6f-uee"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1024" id="CCP-3C-VbD"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="1024" id="H16-9R-ZfH"/>
+                                    <constraint firstAttribute="height" constant="254" id="Hch-rH-1f1"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="Jqo-g0-vPA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1024" id="Q1i-y2-Ubl"/>
+                                    <constraint firstAttribute="height" secondItem="Uyq-Kz-ftE" secondAttribute="width" multiplier="1:1" id="Rbd-Yg-gsm"/>
+                                    <constraint firstAttribute="width" constant="100" id="V5F-Xs-vzk"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="1024" id="dEX-Jo-NpQ"/>
+                                    <constraint firstAttribute="width" constant="300" id="fnq-zd-cT1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xbc-2k-c8Z" firstAttribute="top" secondItem="Uyq-Kz-ftE" secondAttribute="bottom" constant="354" id="9K7-IM-Is7"/>
+                            <constraint firstItem="Uyq-Kz-ftE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="37" id="WCp-q7-Xo4"/>
+                            <constraint firstItem="Uyq-Kz-ftE" firstAttribute="top" secondItem="Ydg-fD-yQy" secondAttribute="bottom" constant="354" id="cEr-AZ-YZb"/>
+                            <constraint firstItem="Uyq-Kz-ftE" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="132" id="e4i-PL-ZRm"/>
+                            <constraint firstAttribute="trailing" secondItem="Uyq-Kz-ftE" secondAttribute="trailing" id="j8a-VR-eD8"/>
+                            <constraint firstItem="Uyq-Kz-ftE" firstAttribute="top" secondItem="Ydg-fD-yQy" secondAttribute="bottom" constant="210" id="kau-ff-Z0R"/>
+                            <constraint firstItem="YRO-k0-Ey4" firstAttribute="leading" secondItem="Uyq-Kz-ftE" secondAttribute="trailing" constant="37" id="s6h-b7-qwh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="251.11607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BrandingImage" width="1024" height="1024"/>
+        <image name="LaunchBackground" width="1" height="1"/>
+        <image name="LaunchImage" width="168" height="185"/>
+    </resources>
+</document>
