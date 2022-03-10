@@ -1,26 +1,35 @@
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  //final int questionIndex;
-  //final Function answerQuestion;
-
-  /*Home({
-    @required this.questions,
-    @required this.answerQuestion,
-    @required this.questionIndex,
-  });*/
-
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Sign in',
-      theme: ThemeData(
-          // Define the default brightness and colors.
-          brightness: Brightness.dark,
-          primaryColor: Colors.white,
-
-          // Define the default font family.
-          fontFamily: 'SedgwickAve'),
+    return Scaffold(
+      appBar: AppBar(
+          title: Text("Sign up",
+              style:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          backgroundColor: Colors.cyan.shade400),
+      body: Align(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+            Text("Username"),
+            TextFormField(),
+            Text("Email"),
+            TextFormField(),
+            Text("Password"),
+            TextFormField(),
+            Container(
+                margin: const EdgeInsets.only(top: 25),
+                child: FlatButton(
+                  child: Text('Register',
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold)),
+                  color: Colors.cyan,
+                  onPressed: () {},
+                ))
+          ])),
     );
   }
 }

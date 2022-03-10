@@ -8,7 +8,7 @@ class TodoItem extends StatelessWidget {
     required this.onTodoChanged,
   }) : super(key: ObjectKey(todo));
 
-  final Todo todo;
+  //final Todo todo;
   final onTodoChanged;
 
   TextStyle? _getTextStyle(bool checked) {

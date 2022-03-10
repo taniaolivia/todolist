@@ -1,40 +1,55 @@
 import 'package:flutter/material.dart';
-
+import 'package:todolist/components/tasks/task_details.dart';
+import 'package:todolist/components/tasks/task_master.dart';
+import 'package:todolist/data/tasks.dart' as data;
+import 'package:todolist/models/task.dart';
 import '../main.dart';
-import './one_task.dart';
+import 'package:faker/faker.dart';
+import 'dart:math';
+import '../models/task.dart';
 
 class AllTasks extends StatefulWidget {
+  final Function selectedTask;
+
+  const AllTasks({Key? key, required this.selectedTask}) : super(key: key);
+
   @override
-  _AllTasksState createState() => new _AllTasksState();
+  _AllTasks createState() {
+    // TODO: implement createState
+    return _AllTasks();
+  }
 }
 
-class _AllTasksState extends State<AllTasks> {
-  final TextEditingController _textFieldController = TextEditingController();
-  final List<Todo> _todos = <Todo>[];
+class _AllTasks extends State<AllTasks> {
+  Task? selectedTask;
+  void showDetails(Task task) {
+    setState(() {
+        selectedTask = task;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('Todo list'),
-      ),
-      body: ListView(
-        padding: EdgeInsets.symmetric(vertical: 8.0),
-        children: _todos.map((Todo todo) {
-          return TodoItem(
-            todo: todo,
-            onTodoChanged: _handleTodoChange,
-          );
-        }).toList(),
-      ),
-      floatingActionButton: FloatingActionButton(
-          onPressed: () => _displayDialog(),
-          tooltip: 'Add Item',
-          child: Icon(Icons.add)),
+    return Scaffold(
+      appBar: AppBar(
+          title: Text("All Tasks",
+              style:
+                  TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
+          backgroundColor: Colors.cyan.shade400),
+      body: Align(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                (selectedTask != null)
+                  ? TaskDetails(task: selectedTask)
+                  : Container(),
+            TaskMaster(tasks: data.tasks, showDetails: showDetails),
+          ])),
     );
   }
-
-  Future<void> _displayDialog() async {
+}
+  /*Future<void> _displayDialog() async {
     return showDialog<void>(
       context: context,
       barrierDismissible: false, // user must tap button!
@@ -71,5 +86,6 @@ class _AllTasksState extends State<AllTasks> {
       _todos.add(Todo(name: name, checked: false));
     });
     _textFieldController.clear();
-  }
-}
+  }*/
+
+
