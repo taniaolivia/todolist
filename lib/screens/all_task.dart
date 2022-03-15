@@ -24,7 +24,13 @@ class _AllTasks extends State<AllTasks> {
   Task? selectedTask;
   void showDetails(Task task) {
     setState(() {
-        selectedTask = task;
+      selectedTask = task;
+    });
+  }
+
+  void closeDetails() {
+    setState(() {
+      selectedTask = null;
     });
   }
 
@@ -41,9 +47,10 @@ class _AllTasks extends State<AllTasks> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                (selectedTask != null)
-                  ? TaskDetails(task: selectedTask)
-                  : Container(),
+            (selectedTask != null)
+                ? TaskDetails(
+                    task: selectedTask, list: data.tasks, close: closeDetails)
+                : Container(),
             TaskMaster(tasks: data.tasks, showDetails: showDetails),
           ])),
     );
