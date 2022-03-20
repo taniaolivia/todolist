@@ -43,7 +43,8 @@ class SignUp extends StatelessWidget {
                         style: TextStyle(
                             color: Colors.white, fontWeight: FontWeight.bold)),
                     color: Colors.cyan,
-                    onPressed: () {},
+                    onPressed: () =>
+                        {Navigator.pushNamed(context, '/all_tasks')},
                   )),
               SizedBox(height: 100),
               Row(
