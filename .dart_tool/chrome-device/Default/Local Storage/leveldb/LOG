@@ -1,13 +1,17 @@
-2022/03/09-14:07:32.441 2003 Reusing MANIFEST /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.gYpWMp/flutter_tools_chrome_device.eccBrC/Default/Local Storage/leveldb/MANIFEST-000001
-2022/03/09-14:07:32.443 2003 Recovering log #4
-2022/03/09-14:07:32.444 2003 Reusing old log /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.gYpWMp/flutter_tools_chrome_device.eccBrC/Default/Local Storage/leveldb/000004.log 
-2022/03/09-14:07:32.445 2003 Delete type=0 #3
-2022/03/09-15:02:34.660 2e1b Level-0 table #8: started
-2022/03/09-15:02:34.690 2e1b Level-0 table #8: 23751 bytes OK
-2022/03/09-15:02:34.729 2e1b Delete type=0 #4
-2022/03/09-15:59:19.458 201f Level-0 table #10: started
-2022/03/09-15:59:19.483 201f Level-0 table #10: 19669 bytes OK
-2022/03/09-15:59:19.526 201f Delete type=0 #7
-2022/03/09-17:13:45.887 561b Level-0 table #12: started
-2022/03/09-17:13:45.916 561b Level-0 table #12: 83610 bytes OK
-2022/03/09-17:13:45.955 561b Delete type=0 #9
+2022/03/17-09:35:01.967 5103 Reusing MANIFEST /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.l1jhhC/flutter_tools_chrome_device.WOQ4sE/Default/Local Storage/leveldb/MANIFEST-000001
+2022/03/17-09:35:01.970 5103 Recovering log #18
+2022/03/17-09:35:01.971 5103 Reusing old log /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.l1jhhC/flutter_tools_chrome_device.WOQ4sE/Default/Local Storage/leveldb/000018.log 
+2022/03/17-09:35:01.972 5103 Delete type=0 #4
+2022/03/17-09:35:01.972 5103 Delete type=0 #11
+2022/03/17-09:35:01.972 5103 Delete type=0 #14
+2022/03/17-09:35:01.972 5103 Delete type=0 #3
+2022/03/17-09:35:01.972 5103 Delete type=2 #15
+2022/03/17-09:35:01.972 5103 Delete type=2 #12
+2022/03/17-09:35:01.972 5103 Delete type=2 #10
+2022/03/17-09:35:01.972 5103 Delete type=2 #8
+2022/03/17-11:01:35.962 571b Level-0 table #22: started
+2022/03/17-11:01:35.982 571b Level-0 table #22: 18350 bytes OK
+2022/03/17-11:01:36.020 571b Delete type=0 #18
+2022/03/17-11:38:50.308 5733 Level-0 table #24: started
+2022/03/17-11:38:50.328 5733 Level-0 table #24: 86420 bytes OK
+2022/03/17-11:38:50.365 5733 Delete type=0 #21
