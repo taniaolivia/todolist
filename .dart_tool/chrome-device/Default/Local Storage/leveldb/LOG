@@ -1,17 +1,30 @@
-2022/03/17-09:35:01.967 5103 Reusing MANIFEST /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.l1jhhC/flutter_tools_chrome_device.WOQ4sE/Default/Local Storage/leveldb/MANIFEST-000001
-2022/03/17-09:35:01.970 5103 Recovering log #18
-2022/03/17-09:35:01.971 5103 Reusing old log /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.l1jhhC/flutter_tools_chrome_device.WOQ4sE/Default/Local Storage/leveldb/000018.log 
-2022/03/17-09:35:01.972 5103 Delete type=0 #4
-2022/03/17-09:35:01.972 5103 Delete type=0 #11
-2022/03/17-09:35:01.972 5103 Delete type=0 #14
-2022/03/17-09:35:01.972 5103 Delete type=0 #3
-2022/03/17-09:35:01.972 5103 Delete type=2 #15
-2022/03/17-09:35:01.972 5103 Delete type=2 #12
-2022/03/17-09:35:01.972 5103 Delete type=2 #10
-2022/03/17-09:35:01.972 5103 Delete type=2 #8
-2022/03/17-11:01:35.962 571b Level-0 table #22: started
-2022/03/17-11:01:35.982 571b Level-0 table #22: 18350 bytes OK
-2022/03/17-11:01:36.020 571b Delete type=0 #18
-2022/03/17-11:38:50.308 5733 Level-0 table #24: started
-2022/03/17-11:38:50.328 5733 Level-0 table #24: 86420 bytes OK
-2022/03/17-11:38:50.365 5733 Delete type=0 #21
+2022/03/20-13:14:43.041 5403 Reusing MANIFEST /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.D7Y8oB/flutter_tools_chrome_device.fDbhvI/Default/Local Storage/leveldb/MANIFEST-000001
+2022/03/20-13:14:43.043 5403 Recovering log #23
+2022/03/20-13:14:43.043 5403 Reusing old log /private/var/folders/1n/v_63dsm11m7gzs8qhn6813900000gn/T/flutter_tools.D7Y8oB/flutter_tools_chrome_device.fDbhvI/Default/Local Storage/leveldb/000023.log 
+2022/03/20-13:14:43.044 5403 Delete type=0 #4
+2022/03/20-13:14:43.044 5403 Delete type=0 #11
+2022/03/20-13:14:43.044 5403 Delete type=0 #14
+2022/03/20-13:14:43.044 5403 Delete type=0 #3
+2022/03/20-13:14:43.044 5403 Delete type=2 #15
+2022/03/20-13:14:43.044 5403 Delete type=2 #12
+2022/03/20-13:14:43.044 5403 Delete type=2 #10
+2022/03/20-13:14:43.044 5403 Delete type=2 #8
+2022/03/20-13:14:43.044 5403 Delete type=0 #18
+2022/03/20-13:26:56.077 1d07 Level-0 table #27: started
+2022/03/20-13:26:56.114 1d07 Level-0 table #27: 69665 bytes OK
+2022/03/20-13:26:56.153 1d07 Delete type=0 #23
+2022/03/20-14:10:39.343 3a1b Level-0 table #29: started
+2022/03/20-14:10:39.360 3a1b Level-0 table #29: 34779 bytes OK
+2022/03/20-14:10:39.394 3a1b Delete type=0 #26
+2022/03/20-14:10:39.396 3a1b Compacting 4@0 + 1@1 files
+2022/03/20-14:10:39.411 3a1b Generated table #30@0: 421 keys, 129832 bytes
+2022/03/20-14:10:39.411 3a1b Compacted 4@0 + 1@1 files => 129832 bytes
+2022/03/20-14:10:39.447 3a1b compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/20-14:10:39.447 3a1b Delete type=2 #29
+2022/03/20-14:10:39.448 3a1b Delete type=2 #22
+2022/03/20-14:10:39.448 3a1b Delete type=2 #27
+2022/03/20-14:10:39.448 3a1b Delete type=2 #19
+2022/03/20-14:10:39.448 3a1b Delete type=2 #24
+2022/03/20-14:38:34.772 900b Level-0 table #32: started
+2022/03/20-14:38:34.793 900b Level-0 table #32: 32527 bytes OK
+2022/03/20-14:38:34.830 900b Delete type=0 #28
