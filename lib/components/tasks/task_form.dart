@@ -36,7 +36,7 @@ class _TaskForm extends State<TaskForm> {
         child: Consumer<TasksCollection>(
             builder: (context, tasks, child) => Column(children: <Widget>[
                   Padding(
-                      padding: EdgeInsets.fromLTRB(100, 0, 100, 40),
+                      padding: EdgeInsets.fromLTRB(20, 0, 20, 40),
                       child: TextField(
                           decoration: InputDecoration(
                             icon: Icon(Icons.task),
@@ -44,7 +44,7 @@ class _TaskForm extends State<TaskForm> {
                           ),
                           controller: contentController)),
                   Padding(
-                      padding: EdgeInsets.fromLTRB(100, 0, 100, 20),
+                      padding: EdgeInsets.fromLTRB(20, 0, 20, 20),
                       child: Align(
                           alignment: Alignment.topLeft,
                           child: Text("Status :",
@@ -53,7 +53,7 @@ class _TaskForm extends State<TaskForm> {
                                   fontWeight: FontWeight.bold,
                                   color: Colors.black45)))),
                   Padding(
-                      padding: EdgeInsets.fromLTRB(100, 0, 100, 40),
+                      padding: EdgeInsets.fromLTRB(30, 0, 100, 30),
                       child: Column(children: <Widget>[
                         CheckboxListTileFormField(
                           title: Text('Still In Progress'),
